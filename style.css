@@ -7,6 +7,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Noto Sans', sans-serif;
+    overflow-x: hidden;
 }
 
 nav {
@@ -98,6 +99,7 @@ header {
     width: 310px;
     background-color: #755CDD;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .graphic-design:hover {
@@ -107,9 +109,13 @@ header {
 }
 
 .graphic-design h2 {
-    margin: 20px 13px;
+    margin: 60px 13px;
     color: whitesmoke;
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.267);
+}
+
+.graphic-design img {
+    margin: 10px 170px;
 }
 
 .u-a-i {
@@ -130,10 +136,11 @@ header {
     width: 140px;
     border-radius: 10px;
     background-color: #F5A65F;
+    overflow: hidden;
 }
 
 .ui-ux h2 {
-    margin: 10px 10px;
+    margin: 30px 10px;
     color: whitesmoke;
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.267);
     font-size: 1.3em; 
@@ -145,15 +152,20 @@ header {
     cursor: pointer;
 }
 
+.ui-ux img {
+    margin: 10px 70px;
+}
+
 .apps {
     height: 150px;
     width: 140px;
     border-radius: 10px;
     background-color: #F39CA1;
+    overflow: hidden;
 }
 
 .apps h2 {
-    margin: 10px 10px;
+    margin: 30px 10px;
     color: whitesmoke;
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.267);
     font-size: 1.3em; 
@@ -163,6 +175,10 @@ header {
     background-color: #f38b90;
     transition: .3s;
     cursor: pointer;
+}
+
+.apps img {
+    margin: 10px 70px;
 }
 
 .u-a-i-bottom {
@@ -178,10 +194,11 @@ header {
     height: 150px;
     width: 100%;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .illustrations h2 {
-    margin: 10px 10px;
+    margin: 15px 10px;
     color: whitesmoke;
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.267);
 }
@@ -190,6 +207,10 @@ header {
     background-color: #e66a57;
     transition: .3s;
     cursor: pointer;
+}
+
+.illustrations img {
+    margin: 10px 170px;
 }
 
 .p-m {
@@ -210,10 +231,11 @@ header {
     width: 100%;
     border-radius: 10px;
     background-color: #62C4B7;
+    overflow: hidden;
 }
 
 .photography h2 {
-    margin: 10px 10px;
+    margin: 15px 10px;
     color: whitesmoke;
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.267);
 }
@@ -222,6 +244,10 @@ header {
     background-color: #6acfc2;
     cursor: pointer;
     transition: .3s;
+}
+
+.photography img {
+    margin: 10px 140px;
 }
 
 .p-m-bottom {
@@ -234,16 +260,83 @@ header {
     width: 100%;
     border-radius: 10px;
     background-color: #561F4B;
+    overflow: hidden;
 }
 
 .motion-graphics h2 {
     color: whitesmoke;
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.267);
-    margin: 10px 10px;
+    margin: 0px 10px;
 }
 
 .motion-graphics:hover {
     background-color: #5e2252;
     cursor: pointer;
+    transition: .3s;
+}
+
+.motion-graphics img {
+    margin: 20px 175px;
+}
+
+.div-amy {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.amy-left {
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.amy-left img {
+    height: 450px;
+    width: 450px;
+}
+
+.amy-right {
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.amy-txt {
+    width: 550px;
+    height: 280px;
+    text-align: justify;
+}
+
+.amy-txt h1 {
+    font-size: 2.5em;
+}
+
+.amy-txt p {
+    margin: 10px 0px;
+    font-size: 1.1em;
+    color: #6a667a;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.089);
+}
+
+.amy-txt button {
+    margin: 10px 0px;
+    padding: 15px 20px;
+    background-color: #E2786A;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.amy-txt button:hover {
+    background-color: #e07163;
     transition: .3s;
 }
