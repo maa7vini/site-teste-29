@@ -340,3 +340,72 @@ header {
     background-color: #e07163;
     transition: .3s;
 }
+
+.book {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.book-div {
+    background-color: black;
+    height: 250px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: whitesmoke;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.book-div h1 {
+    margin-top: -15px;
+}
+
+.book-div p {
+    width: 900px;
+    line-height: 1.5em;
+    margin-top: 15px;
+}
+
+.book-div button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #E2786A;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.book-div button:hover {
+    background-color: #e07163;
+    transition: .3s;
+}
+
+footer {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 150px;
+}
+
+footer button {
+    margin: 10px 0px;
+    padding: 10px 20px;
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+footer button:hover {
+    background-color: rgb(14, 14, 14);
+}
