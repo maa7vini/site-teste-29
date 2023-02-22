@@ -409,3 +409,135 @@ footer button {
 footer button:hover {
     background-color: rgb(14, 14, 14);
 }
+
+@media (max-width:955px) {
+    .header-container {
+        height: 100vh;
+        width: 100%;
+        padding: 0px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .g-d {
+        height: 230px;
+        width: 220px;
+    }
+
+    .graphic-design {
+        height: 230px;
+        width: 220px;
+    }
+
+    .graphic-design img {
+        height: 150px;
+        width: 100px;
+        margin-left: 100px;
+    }
+
+    .graphic-design h2 {
+        margin: 0px 10px;
+        color: whitesmoke;
+        text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.267);
+    }
+
+    .u-a-i-top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .ui-ux {
+        height: 100px;
+        width: 100px;
+    }
+    
+    .ui-ux h2 {
+        margin: 0px 10px;
+    }
+    
+    .ui-ux img {
+        margin: 10px 55px;
+        height: 40px;
+    }
+
+    .apps {
+        height: 100px;
+        width: 100px;
+    }
+    
+    .apps h2 {
+        margin: 0px 10px;
+    }
+    
+    .apps img {
+        margin: 10px 55px;
+        height: 40px;
+    }
+
+    .u-a-i {
+        height: 230px;
+        width: 220px; 
+    }
+
+    .illustrations {
+        height: 100px;
+        width: 100%;
+    }
+    
+    .illustrations h2 {
+        margin: -10px 10px;
+    }
+    
+    .illustrations img {
+        margin: 10px 115px;
+        height: 45px;
+        width: 100px;
+    }
+
+    .p-m {
+        height: 230px;
+        width: 210px; 
+    }
+    
+    .photography {
+        height: 100px;
+        width: 100%;
+    }
+    
+    .photography h2 {
+        margin: -10px 10px;
+    }
+    
+    .photography img {
+        margin: 10px 80px;
+        height: 45px;
+        width: 120px;
+    }
+    
+    .motion-graphics {
+        height: 100px;
+        width: 100%;
+    }
+    
+    .motion-graphics h2 {
+        margin: -10px 10px;
+    }
+    
+    .motion-graphics img {
+        margin: 10px 100px;
+        height: 45px;
+        width: 100px;
+    }
+}
+
+@media (max-width:800px) {
+    .header-txt h1 {
+        width: 80%;
+        text-align: center;
+        overflow: hidden;
+        font-size: 3em;
+        line-height: .9em;
+    }
+}
