@@ -410,6 +410,24 @@ footer button:hover {
     background-color: rgb(14, 14, 14);
 }
 
+@media (max-width: 1205px) {
+    .book-div {
+        height: 250px;
+        width: 1050px;
+    }
+    
+    .book-div h1 {
+        margin-top: -15px;
+    }
+    
+    .book-div p {
+        width: 800px;
+        line-height: 1.5em;
+        margin-top: 15px;
+        font-size: .8em;
+    }
+}
+
 @media (max-width: 1055px) {
     .amy-txt {
         width: 500px;
@@ -428,9 +446,28 @@ footer button:hover {
         height: 350px;
         width: 350px;
     }
+
+    .book-div {
+        width: 950px;
+    }
+    
+    .book-div h1 {
+        margin-top: -15px;
+    }
+    
+    .book-div p {
+        width: 800px;
+        line-height: 1.5em;
+        margin-top: 15px;
+        font-size: .8em;
+    }
 }
 
 @media (max-width: 955px) {
+    nav {
+        padding: 0px 100px;
+    }
+
     .header-container {
         height: 100vh;
         width: 100%;
@@ -552,8 +589,9 @@ footer button:hover {
     }
 
     .amy-txt {
-        width: 450px;
-        height: 250px;
+        width: 425px;
+        height: 210px;
+        overflow: hidden;
     }
     
     .amy-txt h1 {
@@ -569,6 +607,41 @@ footer button:hover {
         width: 350px;
     }
 
+    .book-div {
+        width: 850px;
+    }
+
+    .book-div p {
+        width: 800px;
+        line-height: 1.5em;
+        margin-top: 15px;
+        font-size: .8em;
+    }
+
+}
+
+@media (max-width: 870px) {
+    .amy-txt p {
+        font-size: .7em;
+    }
+
+    .amy-txt {
+        width: 330px;
+        height: 210px;
+        overflow: hidden;
+    }
+
+    .book-div {
+        width: 750px;
+    }
+
+    .book-div p {
+        width: 800px;
+        line-height: 1.5em;
+        margin-top: 15px;
+        font-size: .8em;
+    }
+
 }
 
 @media (max-width:800px) {
@@ -578,5 +651,23 @@ footer button:hover {
         overflow: hidden;
         font-size: 3em;
         line-height: .9em;
+    }
+
+    .amy-left img {
+        height: 250px;
+        width: 250px;
+    }
+}
+
+@media (max-width: 760px) {
+    .book-div {
+        width: 650px;
+    }
+
+    .book-div p {
+        width: 800px;
+        line-height: 1.5em;
+        margin-top: 15px;
+        font-size: .7em;
     }
 }
